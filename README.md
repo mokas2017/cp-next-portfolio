@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Next.js – Med Karim Slouma
 
-## Getting Started
+Ce projet est un site web de portfolio développé avec [Next.js](https://nextjs.org/) et [Tailwind CSS](https://tailwindcss.com/). Il présente les compétences, services, produits, clients et informations de contact de Med Karim Slouma, ingénieur informatique senior.
 
-First, run the development server:
+## Fonctionnalités
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Accueil** : Dashboard avec accès rapide aux sections clés.
+- **À propos** : Présentation du profil et des compétences.
+- **Services** : Liste des prestations proposées.
+- **Produits** : Catalogue de solutions et outils réalisés.
+- **Clients** : Liste dynamique des clients (exemple avec API).
+- **Contact** : Formulaire de contact (API route Next.js).
+- **Navigation** : Barre de navigation réactive.
+- **Pied de page** : Footer adaptatif avec liens sociaux.
+- **Responsive** : Affichage fluide et adaptatif sur mobile/tablette/desktop.
+- **Images optimisées** : Utilisation du composant `Image` de Next.js.
+- **Routage par page** : Système de pages basé sur la structure des dossiers.
+
+## Structure du projet
+
+```
+app/
+  globals.css           # Styles globaux (Tailwind CSS)
+  layout.js             # Layout principal (NavBarre, Foooter)
+  page.js               # Page d'accueil (dashboard)
+  api/contact/route.js  # API route pour le formulaire de contact
+  apropos/page.jsx      # Page À propos
+  contact/page.jsx      # Page Contact
+  produits/page.jsx     # Page Produits
+  services/page.jsx     # Page Services
+  users/page.jsx        # Page Clients
+  components/
+    Foooter.jsx         # Composant pied de page
+    NavBarre.jsx        # Composant barre de navigation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation & Lancement
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Cloner le dépôt**
+   ```bash
+   git clone <url-du-repo>
+   cd cp-nextjs
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Installer les dépendances**
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Lancer le serveur de développement**
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Accéder à l’application**
+   Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Déploiement
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Ce projet peut être déployé facilement sur [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/) ou toute plateforme compatible Next.js.
 
-## Deploy on Vercel
+## Personnalisation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Remplacez les contenus, images et liens par vos propres informations.
+- Modifiez les styles dans `globals.css` ou via les classes Tailwind.
+- Ajoutez de nouvelles pages ou sections selon vos besoins.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Auteur
+
+Med Karim Slouma  
+[LinkedIn](https://www.linkedin.com/in/medkarimslouma) – [GitHub](https://github.com/medkarimslouma)
+
+---
+
+© {année en cours} Med Karim Slouma. Tous droits réservés.
