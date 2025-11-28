@@ -57,7 +57,7 @@ app/
 
 ## Déploiement
 
-Ce projet est déployé  sur [Vercel](cp-next-portfolio-ng3d3cwc6-mokas2017s-projects.vercel.app)
+Ce projet est déployé  sur [Vercel]([cp-next-portfolio-ng3d3cwc6-mokas2017s-projects.vercel.app](https://cp-next-portfolio.vercel.app/))
 
 ## Personnalisation
 
