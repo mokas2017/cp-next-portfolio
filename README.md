@@ -57,7 +57,7 @@ app/
 
 ## Déploiement
 
-Ce projet peut être déployé facilement sur [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/) ou toute plateforme compatible Next.js.
+Ce projet est déployé  sur [Vercel](cp-next-portfolio-ng3d3cwc6-mokas2017s-projects.vercel.app)
 
 ## Personnalisation
 
